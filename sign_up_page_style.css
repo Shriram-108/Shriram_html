@@ -1,0 +1,108 @@
+body{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box1{
+    height: 430px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: cursive;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid grey;
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px black;
+}
+input{
+    position: relative;
+    top: 10px;
+    height: 26px;
+    width: 210px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+::placeholder{
+    color: black;
+    font-family: cursive;
+}
+#box2 > #button{
+    position: relative;
+    font-size: 18px;
+    background-color: #24A0ED;
+    top: 20px;
+    height: 40px;
+    width: 210px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+#box3{
+    position: relative;
+    font-size: 15px;
+    top: 30px;
+    color: gray;
+    font-weight: 300;
+    text-decoration: none;
+}
+#box3 > a{
+    text-decoration: none;
+    color: blue;
+} 
+
+#one{
+    height: 1px;
+    width: 100px;
+    background-color: gray;
+    position: relative;
+    top: 30px;
+    left: 5px;
+    display: inline-block;
+}
+#two{
+    position: relative;
+    display: inline-block;
+    top: 33px;
+    left: 3px;
+    font-size: 15px;
+    color: gray;
+}
+#three{
+    height: 1px;
+    width: 100px;
+    background-color: gray;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    display: inline-block;
+}
+#google{
+    width: 200px;
+    height: 37px;
+    position: relative;
+    display: flex;
+    top: 50px;
+    left: 52px;
+    background: white;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 17px;
+    align-items: center;
+    justify-content: center;
+}
+#google > img{
+    display: inline-block;
+    position: relative;
+    height: 25px;
+    left: -5px;
+    top: 0px;
+}
